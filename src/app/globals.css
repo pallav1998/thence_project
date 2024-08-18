@@ -31,3 +31,30 @@ body {
     text-wrap: balance;
   }
 }
+
+.black_button,
+.white_button {
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.black_button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+
+  &:hover {
+    background-color: #403a3a;
+  }
+}
+
+.white_button {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid rgba(216, 194, 194, 0.584);
+
+  &:hover {
+    background-color: #f0e0e0;
+  }
+}
