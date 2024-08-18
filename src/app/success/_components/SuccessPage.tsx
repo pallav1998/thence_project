@@ -56,7 +56,7 @@ export default function SuccessPage() {
           your information and reach out to your shortly with updates.
         </p>
 
-        <p className="text-xl text-slate-700 mt-72">
+        <p className="text-xl text-slate-700 mt-40">
           Redirecting you to HomePage in <b>{count} Seconds</b>
         </p>
       </div>
